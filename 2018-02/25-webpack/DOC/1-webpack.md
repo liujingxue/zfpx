@@ -24,7 +24,20 @@ npm i webpack webpack-cli -D   //webpack是开发时需要,webpack-cli是命令�
 
 ## 安装
 
-* 1
-* 2
+* 标识项目依赖 --save 上线开发都需要
+* --save-dev 开发依赖，只有开发时使用   -D等于 --save-dev
+
+## 安装webpack
+
+全局安装 npm i webpack -g
+全局安装有个缺点
+安装在当前项目下，，不用全局安装
+webpack4有webpack-cli
+npm i webpack webpack-cli -D
+
+```
+npm init -y
+
+```
 
 
