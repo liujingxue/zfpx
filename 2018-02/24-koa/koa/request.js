@@ -1,4 +1,8 @@
 //koa自己封装的
-module.exports = {
-    //24:11
+let url = require('url')
+let request =  {
+    get query(){
+        return this.a
+    }
 }
+module.exports = request
