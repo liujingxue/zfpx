@@ -2,7 +2,19 @@
 let url = require('url')
 let request =  {
     get query(){
-        return this.a
+        return url.parse(this.req.url,true).query
+    },
+    get method(){
+        return this.req.method
     }
 }
 module.exports = request
+
+// Object.defineProperty(request,'query',{
+//     get(){
+//
+//     },
+//     set(){
+//
+//     }
+// })

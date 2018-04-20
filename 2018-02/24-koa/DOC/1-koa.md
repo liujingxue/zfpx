@@ -59,5 +59,7 @@ app.listen(8099)
 * ctx.acceptsLanguages()
 * ctx.get()
 
+## ctx是怎么诞生的， ctx只是用来实现代理req和request的
+
 
 
